@@ -7,7 +7,7 @@ setTimeout(function(){
     var s = document.getElementsByClassName('editor-body');
     var se = s[0].getElementsByTagName('li');
     se[1].childNodes[0].childNodes[0].click();
-    
+
     setTimeout(function(){
       var p = document.getElementsByClassName('private-typeahead-results');
       p[0].getElementsByTagName('li')[15].childNodes[0].click();
@@ -17,8 +17,11 @@ setTimeout(function(){
         c[0].click();
 
         setTimeout(function() {
-          var b = document.getElementsByClassName('btn uiButton private-button private-button--default private-button__link btn-link');
-          b[0].click();
+          var b = document.getElementsByClassName('private-button__link')[14].click();
+
+          setTimeout(function() {
+            document.getElementsByClassName('uiLinkWithoutUnderline')[0].click()
+          }, 2000)
         }, 2000);
       }, 2000);
     }, 2000);
