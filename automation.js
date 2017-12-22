@@ -1,9 +1,9 @@
 /*
 If you want to use the script, type the send_email() function name into the
-Chrome console. The script will run away and you will have to do nothing.
+Chrome console. The script will run and you will have to do nothing.
 
-If the template list-order is changed because there are more templates added,
-please change the 'cas' variable defined at the beginning of the send_email function
+The 'cas'-variable can be set to zero/0 by default because of the 'recent'-preset in the sequences list. If your list is filtered to 
+'all', you can change the 'cas'-variable.
 */
 
 function send_email() {
