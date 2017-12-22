@@ -1,4 +1,4 @@
-*
+/*
 If you want to use the script, type the send_email() function name into the
 Chrome console. The script will run and you will have to do nothing.
 
