@@ -1,4 +1,4 @@
-/*
+*
 If you want to use the script, type the send_email() function name into the
 Chrome console. The script will run and you will have to do nothing.
 
@@ -7,8 +7,8 @@ The 'cas'-variable can be set to zero/0 by default because of the 'recent'-prese
 */
 
 function send_email() {
-  var cas = 1;
-  cas - 1;
+  var cas = 0;
+  cas - 0;
 
   setTimeout(function(){
     var j = document.getElementsByClassName('private-tabs__list');
