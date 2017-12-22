@@ -22,7 +22,6 @@ function send_email() {
 
       setTimeout(function(){
         var p = document.getElementsByClassName('sales-modal-content')[0].getElementsByTagName('tbody')[0].childNodes[cas].getElementsByTagName('button')[0].click();
-        // p.getElementsByTagName('tbody')[0].childNodes[cas].click();
 
         setTimeout(function() {
           var c = document.getElementsByClassName('btn uiButton private-button private-button--default private-button--primary btn-primary m-right-3');
