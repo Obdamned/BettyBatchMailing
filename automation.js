@@ -1,9 +1,9 @@
-/*
+ /*
 If you want to use the script, type the send_email() function name into the
 Chrome console. The script will run and you will have to do nothing.
 
 The 'cas'-variable can be set to zero/0 by default because of the 'recent'-preset in the sequences list. If your list is filtered to 
-'all', you can change the 'cas'-variable.
+'all', you can change the 'cas'-variable to the wanted number in the sequences list.
 */
 
 function send_email() {
