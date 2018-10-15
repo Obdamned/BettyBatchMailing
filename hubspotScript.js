@@ -25,7 +25,7 @@ function send_email() {
 
         //Click the 'Start sequence'-button.
         setTimeout(function() {
-          var c = document.getElementsByClassName('uiButton private-button private-button--default private-button--primary m-right-3 private-hoverable private-button--non-link');
+          var c = document.getElementsByClassName('uiButton private-button private-button--default private-button--primary m-right-3 private-button--non-link');
           c[0].click();
 
           //Click the 'Start anyway'-button.
